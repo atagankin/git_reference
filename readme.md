@@ -30,3 +30,23 @@ git remote add origin git@github.com:atagankin/git_reference.git
 ```
 git clone git@github.com:atagankin/git_reference.git
 ```
+Добавляем и правим файлы
+После можем проверить текущий статус проекта
+```
+git status
+```
+
+Необходимо добавить исправленные файлы, которые хотим внести в commit
+```
+git add ...
+git add --all
+```
+
+Фиксируем изменения
+```
+git commit -m "message for commit"
+```
+Проносим в основной репозиторий проекта
+```
+git push origin master
+```
